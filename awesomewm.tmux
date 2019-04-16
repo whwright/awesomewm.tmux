@@ -22,3 +22,7 @@ bind -n M-J rotate-window -D \; select-pane -t 0
 # Rotate counterclockwise
 bind -n M-K rotate-window -U \; select-pane -t 0
 
+# Refresh layout
+bind -n M-r select-layout main-vertical \;\
+    run "tmux resize-pane -t :.0 -x \"$(echo \"#{window_width}/2/1\" | bc)\""
+
