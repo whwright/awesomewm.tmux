@@ -16,9 +16,9 @@ bind -n M-j select-pane -t :.+
 # Prev pane
 bind -n M-k select-pane -t :.-
 
-# Rotate counterclockwise
-bind -n M-K rotate-window -U \; select-pane -t 0
-
 # Rotate clockwise
 bind -n M-J rotate-window -D \; select-pane -t 0
+
+# Rotate counterclockwise
+bind -n M-K rotate-window -U \; select-pane -t 0
 

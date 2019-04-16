@@ -9,5 +9,6 @@ inspired/stolen from [saysjonathan/dwm.tmux](https://github.com/saysjonathan/dwm
 - `Meta-c` kill pane
 - `Meta-j` next pane
 - `Meta-k` previous pane
-- `Meta-K` rotate panes counter-clockwise
 - `Meta-J` rotate panes clockwise
+- `Meta-K` rotate panes counter-clockwise
+
