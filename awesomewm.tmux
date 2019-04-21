@@ -5,7 +5,7 @@ bind -n M-Enter split-window -t :.0 \;\
     run "tmux resize-pane -t :.0 -x \"$(echo \"#{window_width}/2/1\" | bc)\""
 
 # Kill pane
-bind -n M-c kill-pane -t :. \;\
+bind -n M-C kill-pane -t :. \;\
     select-layout main-vertical \;\
     run "tmux resize-pane -t :.0 -x \"$(echo \"#{window_width}/2/1\" | bc)\"" \;\
     select-pane -t :.0
